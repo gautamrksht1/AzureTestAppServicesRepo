@@ -62,7 +62,6 @@ namespace ECommerce.Services.AuthAPI.Controllers
             }
 
             response.Result = result;
-            return new OkObjectResult(new object);
             return Ok(response);
         }
 

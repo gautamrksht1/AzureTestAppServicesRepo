@@ -15,7 +15,7 @@ namespace ECommerce.Services.CouponAPI.Services.ServiceImplementations
 
         public IEnumerable<Coupon> GetAllCoupons()
         {
-            return _dbContext.Coupons.first;
+            return _dbContext.Coupons;
         }
 
         public Coupon GetCouponByCode(string couponCode)
