@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'SnigdhaBeautyStudio'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CB5E4558AD0446F4842F3A79FA95A7D3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B9F98B899C614E7EADA5F571F415625F }}
           package: .
